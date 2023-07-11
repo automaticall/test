@@ -5,4 +5,4 @@ WORKDIR ${PROJECT_DIR}
 COPY . ${PROJECT_DIR}/
 RUN pipenv install --system --deploy 
 EXPOSE  80
-CMD [ "pipenv run pip install -r requirements.txt", "python ./app.py" ]
+CMD [ "python", "./app.py" , "--config" , "./config.yaml"]
