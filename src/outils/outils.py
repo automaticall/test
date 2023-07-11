@@ -24,7 +24,7 @@ class Outils:
     def mult(self,config):
         """ write modulo function"""
         try:
-            reset = config["a"] * config["b"]
+            reset = config["a"] * config["b"] * config["d"]
             print(reset)
             return reset
         except:
