@@ -14,5 +14,5 @@ class Test(unittest.TestCase):
         self.assertIsInstance(self.parser , Outils)
 
     
-if __name__=="__maine__":
+if __name__=="__main__":
     unittest.main()
