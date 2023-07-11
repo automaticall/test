@@ -20,4 +20,13 @@ class Outils:
             return reset
         except:
             print("error contact the dev, or make sure your enter right data")
+
+    def mult(self,config):
+        """ write modulo function"""
+        try:
+            reset = config["a"] * config["b"]
+            print(reset)
+            return reset
+        except:
+            print("error contact the dev, or make sure your enter right data")
         
