@@ -14,5 +14,9 @@ class Outils:
     
     def modulo(self,config):
         """ write modulo function"""
-        reset = self.add(a=config["a"] , b=config["b"] ) % config["q"]
-        return reset
+        try:
+            reset = self.add(a=config["a"] , b=config["b"] ) % config["q"]
+            return reset
+        except:
+            print("error contact the dev, or make sure your enter right data")
+        
